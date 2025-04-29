@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MTCS Taximeter</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="manifest" href="manifest.json" />
+  <link rel="manifest" href="/mtcs-taximeter/manifest.json" />
   <meta name="theme-color" content="#000000" />
 </head>
 <body>
@@ -38,7 +38,7 @@
     <script src="script.js"></script>
     <script>
       if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('service-worker.js');
+        navigator.serviceWorker.register('/mtcs-taximeter/service-worker.js');
       }
     </script>
   </div>
